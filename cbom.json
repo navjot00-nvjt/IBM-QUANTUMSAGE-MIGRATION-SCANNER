@@ -1,6 +1,6 @@
 {
   "scanner": "IBM QuantumSafe Migration Scanner v1.0",
-  "author": "Navjot Singh - YuvaIntern Week 1 - Rupnagar, Punjab",
+  "author": "Navjot kaur - YuvaIntern Week 1 ,
   "test_targets": ["IBM/ibm-cloud-sdk", "IBM/quantum-safe"],
   "performance": {
     "files_scanned": 284,
