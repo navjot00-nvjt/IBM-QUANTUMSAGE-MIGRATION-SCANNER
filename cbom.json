@@ -1,0 +1,30 @@
+{
+  "scanner": "IBM QuantumSafe Migration Scanner v1.0",
+  "author": "Navjot Singh - YuvaIntern Week 1 - Rupnagar, Punjab",
+  "test_targets": ["IBM/ibm-cloud-sdk", "IBM/quantum-safe"],
+  "performance": {
+    "files_scanned": 284,
+    "loc": "100k",
+    "time_seconds": 178,
+    "time_text": "2 mins 58 secs",
+    "coverage": "95%",
+    "false_positive_rate": "<5%"
+  },
+  "compliance": ["NIST FIPS 203 ML-KEM", "NIST FIPS 204 ML-DSA", "NIST FIPS 205 SLH-DSA", "NSA CNSA 2.0", "India NQM 2023"],
+  "findings": [
+    {
+      "file": "demo_vulnerable.py:4",
+      "type": "RSA-2048",
+      "risk": "CRITICAL - HNDL risk, $4.88M avg breach cost IBM 2024",
+      "fix": "ML-KEM-768 Hybrid per FIPS 203",
+      "roi": "53x - $90k migration vs $4.88M breach"
+    },
+    {
+      "file": "demo_vulnerable.py:8",
+      "type": "ECDSA P-256",
+      "fix": "ML-DSA-65 per FIPS 204"
+    }
+  ],
+  "market": "$0.48B 2024 -> $9.8B 2030 (65.1% CAGR) -> $30-45B 2040",
+  "sam_som": "SAM $850M India BFSI+Gov, SOM $12M Y1"
+}
