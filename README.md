@@ -1,5 +1,5 @@
 # IBM QuantumSafe Migration Scanner
-Week 1 - YuvaIntern - Navjot Singh - Rupnagar
+Week 1 - YuvaIntern - Navjot kaur
 
 ## Problem
 RSA-2048 breaks in 8 hours with 4000 qubits (vs 300T years classical).
