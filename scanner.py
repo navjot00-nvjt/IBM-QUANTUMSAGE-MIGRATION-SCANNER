@@ -1,6 +1,6 @@
 """
 IBM QuantumSafe Migration Scanner - Prototype
-Week 1 YuvaIntern - Navjot Singh Rupnagar
+Week 1 YuvaIntern - Navjot kaur
 Scans 100k LOC in 3 mins, 95% coverage, <5% FP
 Maps to NIST FIPS 203/204/205, NSA CNSA 2.0
 """
